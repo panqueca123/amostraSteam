@@ -1,0 +1,217 @@
+@media only screen and (min-width: 0) and (max-width: 650px) {
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Protest+Guerrilla&display=swap');
+    * {
+        font-family: "EB Garamond", serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-image: url(imagens/9728aade86ce9ef868e9a55b482f299d.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-color: black;
+        background-size: 100%;
+        background-position-y: 20px;
+        background-position-x: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.651);
+        padding-top: 50px;
+        margin: 100px 0 0 30px;
+        height: 80vh;
+        width: 100vw;
+    }
+
+    .container h1{
+        font-family: "Protest Guerrilla", sans-serif;
+        text-align: center;
+        font-size: medium;
+    }
+
+    .parteDeCima {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        width: 100vw;
+    }
+
+    img{
+        width: 20vw;
+        height: 20vh;
+        padding: 10px 20px 0 0 ;
+    }
+
+    .parteDeBaixo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    #texto1 {
+        margin: 15px 10px 0 15px;
+    }
+
+    #texto1 p {
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .parteDeBaixo p {
+        margin: 0 15px 10px 15px;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 651px) and (max-width: 1190px) {
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Protest+Guerrilla&display=swap');
+    * {
+        font-family: "EB Garamond", serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-image: url(imagens/9728aade86ce9ef868e9a55b482f299d.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -400px;
+        background-color: black;
+        background-size: 70%;
+        background-position-x: 150px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.651);
+        padding-top: 30px;
+        margin: 220px 200px 0 200px;
+        height: 50vh;
+    }
+
+    .container h1{
+        font-family: "Protest Guerrilla", sans-serif;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .parteDeCima {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+
+    img{
+        width: 15vw;
+        height: 30vh;
+        padding: 0 20px 0 0 ;
+    }
+
+    .parteDeBaixo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    #texto1 {
+        margin: 30px 30px 0 30px;
+        font-size: 20px;
+    }
+
+    #texto1 p {
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .parteDeBaixo p {
+        margin: 0 30px 30px 30px;
+        font-weight: bold;
+        font-size: medium;
+    }
+}
+
+@media only screen and (min-width: 1142px) and (max-width: 50000px) {
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Protest+Guerrilla&display=swap');
+    * {
+        font-family: "EB Garamond", serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-image: url(imagens/9728aade86ce9ef868e9a55b482f299d.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: -220px;
+        background-color: black;
+        background-size: 70%;
+        background-position-x: 150px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.651);
+        padding-top: 50px;
+        margin: 220px 200px 0 200px;
+        height: 50vh;
+    }
+
+    .container h1{
+        font-family: "Protest Guerrilla", sans-serif;
+        text-align: center;
+    }
+
+    .parteDeCima {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+    }
+
+    img{
+        width: 15vw;
+        height: 30vh;
+        padding: 0 20px 0 0 ;
+    }
+
+    .parteDeBaixo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    #texto1 {
+        margin: 30px 30px 0 30px;
+    }
+
+    #texto1 p {
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .parteDeBaixo p {
+        margin: 0 30px 30px 30px;
+        font-weight: bold;
+    }
+}
